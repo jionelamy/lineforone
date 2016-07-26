@@ -8,40 +8,41 @@
         android:id="@+id/lead_top_ll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/lead_down_rl"
         android:orientation="vertical">
-    <android.support.v4.view.ViewPager
-        android:id="@+id/lead_viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+        <fragment
+            android:id="@+id/splashPagerFragment"
+            android:name="com.example.feicui.demoforline.fragment.LeadPagerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
 
-        <LinearLayout
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="0dp"
-            android:layout_width="120dp"
-            android:gravity="center"
-            android:layout_height="60dp">
-            <ImageView
-                android:layout_weight="1"
-                android:id="@+id/lead_viewpager_one"
-                android:layout_width="wrap_content"
-                android:src="@mipmap/viewpager_normal"
-                android:layout_height="wrap_content" />
-            <ImageView
-                android:layout_weight="1"
-                android:src="@mipmap/viewpager_normal"
-                android:id="@+id/lead_viewpager_two"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <ImageView
-                android:layout_weight="1"
-                android:src="@mipmap/viewpager_normal"
-                android:id="@+id/lead_viewpager_three"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+        <!--<LinearLayout-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginBottom="0dp"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="60dp">-->
+            <!--<ImageView-->
+                <!--android:layout_weight="1"-->
+                <!--android:id="@+id/lead_viewpager_one"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:src="@mipmap/viewpager_normal"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<ImageView-->
+                <!--android:layout_weight="1"-->
+                <!--android:src="@mipmap/viewpager_normal"-->
+                <!--android:id="@+id/lead_viewpager_two"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--<ImageView-->
+                <!--android:layout_weight="1"-->
+                <!--android:src="@mipmap/viewpager_normal"-->
+                <!--android:id="@+id/lead_viewpager_three"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
     </RelativeLayout>
 
     <LinearLayout

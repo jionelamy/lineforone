@@ -7,4 +7,8 @@
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
     <color name="colorNo">#00ffffff</color>
+    <color name="colorGrey">#a2a0a0</color>
+    <color name="colorGreen">#3FBA91</color>
+    <color name="colorRed">#E8526D</color>
+    <color name="colorYellow">#FBB260</color>
 </resources>
